@@ -2,6 +2,7 @@
 
 // camelCase
 string boasVindas = "\nBoas vindas ao Screen Sound!";
+List<string> bandas = new List<string>();
 
 // void quando a função não terá return // PascalCase
 void ExibirBoasVindas()
@@ -40,7 +41,7 @@ void ExibirMenu()
     switch (opçaoInt)
     {
         case 1:
-            Console.WriteLine("\nVocê escolheu a opção " + opçao);
+            RegistrarBanda();
             break;
         case 2:
             Console.WriteLine("\nVocê escolheu a opção " + opçao);
@@ -59,6 +60,19 @@ void ExibirMenu()
             break;
     }
 }
+
+void RegistrarBanda()
+{
+    Console.Clear();
+    Console.WriteLine("Registro de bandas");
+    Console.Write("\nDigite o nome da banda: ");
+    string nomeBanda = Console.ReadLine()!;
+    bandas.Add(nomeBanda);
+    Console.WriteLine($"\nA banda {nomeBanda} foi registrada com sucesso!");
+    Thread.Sleep(2000);
+    Console.Clear();
+    ExibirMenu();
+} 
 
 ExibirBoasVindas();
 ExibirMenu();

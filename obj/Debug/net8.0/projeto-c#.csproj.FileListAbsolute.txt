@@ -12,3 +12,4 @@ C:\Users\Inteli\Desktop\projeto-c#\obj\Debug\net8.0\refint\projeto-c#.dll
 C:\Users\Inteli\Desktop\projeto-c#\obj\Debug\net8.0\projeto-c#.pdb
 C:\Users\Inteli\Desktop\projeto-c#\obj\Debug\net8.0\projeto-c#.genruntimeconfig.cache
 C:\Users\Inteli\Desktop\projeto-c#\obj\Debug\net8.0\ref\projeto-c#.dll
+C:\Users\Inteli\Desktop\projeto-c#\obj\Debug\net8.0\projeto-c#.sourcelink.json
