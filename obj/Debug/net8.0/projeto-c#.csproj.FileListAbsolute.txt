@@ -1,0 +1,14 @@
+C:\Users\Inteli\Desktop\projeto-c#\bin\Debug\net8.0\projeto-c#.exe
+C:\Users\Inteli\Desktop\projeto-c#\bin\Debug\net8.0\projeto-c#.deps.json
+C:\Users\Inteli\Desktop\projeto-c#\bin\Debug\net8.0\projeto-c#.runtimeconfig.json
+C:\Users\Inteli\Desktop\projeto-c#\bin\Debug\net8.0\projeto-c#.dll
+C:\Users\Inteli\Desktop\projeto-c#\bin\Debug\net8.0\projeto-c#.pdb
+C:\Users\Inteli\Desktop\projeto-c#\obj\Debug\net8.0\projeto-c#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Inteli\Desktop\projeto-c#\obj\Debug\net8.0\projeto-c#.AssemblyInfoInputs.cache
+C:\Users\Inteli\Desktop\projeto-c#\obj\Debug\net8.0\projeto-c#.AssemblyInfo.cs
+C:\Users\Inteli\Desktop\projeto-c#\obj\Debug\net8.0\projeto-c#.csproj.CoreCompileInputs.cache
+C:\Users\Inteli\Desktop\projeto-c#\obj\Debug\net8.0\projeto-c#.dll
+C:\Users\Inteli\Desktop\projeto-c#\obj\Debug\net8.0\refint\projeto-c#.dll
+C:\Users\Inteli\Desktop\projeto-c#\obj\Debug\net8.0\projeto-c#.pdb
+C:\Users\Inteli\Desktop\projeto-c#\obj\Debug\net8.0\projeto-c#.genruntimeconfig.cache
+C:\Users\Inteli\Desktop\projeto-c#\obj\Debug\net8.0\ref\projeto-c#.dll
