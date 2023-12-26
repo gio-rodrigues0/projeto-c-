@@ -2,7 +2,7 @@
 
 // camelCase
 string boasVindas = "\nBoas vindas ao Screen Sound!";
-List<string> bandas = new List<string>();
+Dictionary<string, List<int>> bandas = new Dictionary<string, List<int>>();
 
 // void quando a função não terá return // PascalCase
 void ExibirBoasVindas()
@@ -65,9 +65,11 @@ void RegistrarBanda()
 {
     Console.Clear();
     Console.WriteLine("Registro de bandas");
+
     Console.Write("\nDigite o nome da banda: ");
     string nomeBanda = Console.ReadLine()!;
-    bandas.Add(nomeBanda);
+    bandas.Add(nomeBanda, new List<int> {1});
+
     Console.WriteLine($"\nA banda {nomeBanda} foi registrada com sucesso!");
     Thread.Sleep(2000);
     Console.Clear();
@@ -78,13 +80,16 @@ void ListarBandas()
 {
     Console.Clear();
     Console.WriteLine("Listagem de bandas\n");
+
     // for (int i = 0; i < bandas.Count; i++){
     //     Console.WriteLine(bandas[i]);
     // }
-    foreach (string banda in bandas)
+
+    foreach (string banda in bandas.Keys)
     {
         Console.WriteLine(banda);
     }
+
     Console.WriteLine("\nPressione qualquer tecla para voltar ao menu principal");
     Console.ReadKey();
     Console.Clear();
