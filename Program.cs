@@ -44,7 +44,7 @@ void ExibirMenu()
             RegistrarBanda();
             break;
         case 2:
-            Console.WriteLine("\nVocê escolheu a opção " + opçao);
+            ListarBandas();
             break;
         case 3:
             Console.WriteLine("\nVocê escolheu a opção " + opçao);
@@ -73,6 +73,19 @@ void RegistrarBanda()
     Console.Clear();
     ExibirMenu();
 } 
+
+void ListarBandas()
+{
+    Console.Clear();
+    Console.WriteLine("Listagem de bandas\n");
+    for (int i = 0; i < bandas.Count; i++){
+        Console.WriteLine($"{bandas[i]}");
+    }
+    Console.WriteLine("\nPressione qualquer tecla para voltar ao menu principal");
+    Console.ReadKey();
+    Console.Clear();
+    ExibirMenu();
+}
 
 ExibirBoasVindas();
 ExibirMenu();
