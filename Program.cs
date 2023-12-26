@@ -78,8 +78,12 @@ void ListarBandas()
 {
     Console.Clear();
     Console.WriteLine("Listagem de bandas\n");
-    for (int i = 0; i < bandas.Count; i++){
-        Console.WriteLine($"{bandas[i]}");
+    // for (int i = 0; i < bandas.Count; i++){
+    //     Console.WriteLine(bandas[i]);
+    // }
+    foreach (string banda in bandas)
+    {
+        Console.WriteLine(banda);
     }
     Console.WriteLine("\nPressione qualquer tecla para voltar ao menu principal");
     Console.ReadKey();
