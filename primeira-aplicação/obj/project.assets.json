@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Inteli\\Desktop\\projeto-c#\\projeto-c#.csproj",
+      "projectUniqueName": "C:\\Users\\Inteli\\Desktop\\projeto-c#\\primeira-aplicação\\projeto-c#.csproj",
       "projectName": "projeto-c#",
-      "projectPath": "C:\\Users\\Inteli\\Desktop\\projeto-c#\\projeto-c#.csproj",
+      "projectPath": "C:\\Users\\Inteli\\Desktop\\projeto-c#\\primeira-aplicação\\projeto-c#.csproj",
       "packagesPath": "C:\\Users\\Inteli\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Inteli\\Desktop\\projeto-c#\\obj\\",
+      "outputPath": "C:\\Users\\Inteli\\Desktop\\projeto-c#\\primeira-aplicação\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Inteli\\AppData\\Roaming\\NuGet\\NuGet.Config"
