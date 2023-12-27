@@ -47,10 +47,10 @@ void ExibirMenu()
             ListarBandas();
             break;
         case 3:
-            Console.WriteLine("\nVocê escolheu a opção " + opçao);
+            AvaliarBanda();
             break;
         case 4:
-            Console.WriteLine("\nVocê escolheu a opção " + opçao);
+            MediaBanda();
             break;
         case -1:
             Console.WriteLine("\nObrigado por utilizar o Screen Sound!");
@@ -94,6 +94,58 @@ void ListarBandas()
     Console.ReadKey();
     Console.Clear();
     ExibirMenu();
+}
+
+void AvaliarBanda()
+{
+    Console.Clear();
+    Console.WriteLine("Avaliação de bandas\n");
+
+    Console.Write("Digite o nome da banda que deseja avaliar: ");
+    string nomeBanda = Console.ReadLine()!;
+
+    if (bandas.ContainsKey(nomeBanda))
+    {
+        Console.Write($"\nDigite uma nota de 1 a 5 para a banda {nomeBanda}: ");
+        int nota = int.Parse(Console.ReadLine()!);
+        bandas[nomeBanda].Add(nota);
+        Console.WriteLine($"\nA banda {nomeBanda} foi avaliada com sucesso!");
+        Thread.Sleep(2000);
+        Console.Clear();
+        ExibirMenu();
+    }
+    else
+    {
+        Console.WriteLine("\nBanda não encontrada!");
+        Thread.Sleep(2000);
+        Console.Clear();
+        ExibirMenu();
+    }
+}
+
+void MediaBanda()
+{
+    Console.Clear();
+    Console.WriteLine("Média de bandas\n");
+
+    Console.Write("Digite o nome da banda que deseja ver a média: ");
+    string nomeBanda = Console.ReadLine()!;
+
+    if (bandas.ContainsKey(nomeBanda))
+    {
+        List<int> notas = bandas[nomeBanda];
+        Console.WriteLine($"\nA média da banda {nomeBanda} é {notas.Average()}");
+        Thread.Sleep(2000);
+        Console.Clear();
+        ExibirMenu();
+    }
+    else
+    {
+        Console.WriteLine("\nBanda não encontrada!");
+        Thread.Sleep(2000);
+        Console.Clear();
+        ExibirMenu();
+    }
 }
 
 ExibirBoasVindas();
