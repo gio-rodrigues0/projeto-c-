@@ -1,0 +1,15 @@
+C:\Users\Inteli\Desktop\projeto-c#\orientação-a-objetos\bin\Debug\net8.0\orientação-a-objetos.exe
+C:\Users\Inteli\Desktop\projeto-c#\orientação-a-objetos\bin\Debug\net8.0\orientação-a-objetos.deps.json
+C:\Users\Inteli\Desktop\projeto-c#\orientação-a-objetos\bin\Debug\net8.0\orientação-a-objetos.runtimeconfig.json
+C:\Users\Inteli\Desktop\projeto-c#\orientação-a-objetos\bin\Debug\net8.0\orientação-a-objetos.dll
+C:\Users\Inteli\Desktop\projeto-c#\orientação-a-objetos\bin\Debug\net8.0\orientação-a-objetos.pdb
+C:\Users\Inteli\Desktop\projeto-c#\orientação-a-objetos\obj\Debug\net8.0\orientação-a-objetos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Inteli\Desktop\projeto-c#\orientação-a-objetos\obj\Debug\net8.0\orientação-a-objetos.AssemblyInfoInputs.cache
+C:\Users\Inteli\Desktop\projeto-c#\orientação-a-objetos\obj\Debug\net8.0\orientação-a-objetos.AssemblyInfo.cs
+C:\Users\Inteli\Desktop\projeto-c#\orientação-a-objetos\obj\Debug\net8.0\orientação-a-objetos.csproj.CoreCompileInputs.cache
+C:\Users\Inteli\Desktop\projeto-c#\orientação-a-objetos\obj\Debug\net8.0\orientação-a-objetos.sourcelink.json
+C:\Users\Inteli\Desktop\projeto-c#\orientação-a-objetos\obj\Debug\net8.0\orientação-a-objetos.dll
+C:\Users\Inteli\Desktop\projeto-c#\orientação-a-objetos\obj\Debug\net8.0\refint\orientação-a-objetos.dll
+C:\Users\Inteli\Desktop\projeto-c#\orientação-a-objetos\obj\Debug\net8.0\orientação-a-objetos.pdb
+C:\Users\Inteli\Desktop\projeto-c#\orientação-a-objetos\obj\Debug\net8.0\orientação-a-objetos.genruntimeconfig.cache
+C:\Users\Inteli\Desktop\projeto-c#\orientação-a-objetos\obj\Debug\net8.0\ref\orientação-a-objetos.dll
